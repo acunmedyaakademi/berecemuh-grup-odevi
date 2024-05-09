@@ -65,17 +65,21 @@ h6 {
 
 .product-container {
   width: 1440px;
-  padding-inline: 80px;
   padding-block: 64px;
-  margin-block: 64px;
+
   font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: column;
   gap: 64px;
 }
 
+.dark-blue {
+  color: #F9F9F9;
+  background-color: #151B28;
+}
+
 .pc-header {
-  padding-inline: 240px;
+  padding-inline: 320px;
   text-align: center;
 }
 
@@ -97,8 +101,16 @@ h6 {
 }
 
 .pc-content {
+  padding-inline: 80px;
+  margin-block: 64px;
   display: flex;
   gap: 124px;
+  justify-content: space-between;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .pc-content-box {
@@ -110,6 +122,7 @@ h6 {
 .content-item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 32px;
 }
 
