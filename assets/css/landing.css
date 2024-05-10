@@ -221,6 +221,10 @@ h6 {
     width: 704px;
   }
 
+  .text a img {
+    width: 15px;
+  }
+
   .customers-message {
     display: flex;
     flex-direction: column;
@@ -292,7 +296,7 @@ h6 {
   .pc-content-box {
     display: flex;
     gap: 16px;
-    width: 343px;
+    width: 354px;
   }
 
   .customers-message {
